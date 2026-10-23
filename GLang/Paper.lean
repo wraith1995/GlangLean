@@ -1,0 +1,9 @@
+import GLang.Public.PaperSourceResults
+import GLang.Public.PaperBasisResults
+import GLang.Public.PaperValueResults
+import GLang.Public.PaperOperationalResults
+import GLang.Public.PaperAdequacyResults
+import GLang.Public.PaperContextResults
+import GLang.Public.PaperSurfaceResults
+import GLang.Public.PaperDenotationResults
+import GLang.Public.PaperNumericalResults

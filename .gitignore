@@ -1,0 +1,29 @@
+# Lean build artifacts
+.lake/
+build/
+*.olean
+*.ilean
+*.c
+
+# Claude local state — ignore everything under .claude/ (worktrees, PLAN.md,
+# settings.local.json, …) EXCEPT the shared hooks, which are project infra and
+# must be versioned. Use `.claude/*` (not `.claude/`) so the directory itself is
+# not excluded and the negation below can re-include a subdirectory.
+.claude/*
+!.claude/hooks/
+
+# macOS
+.DS_Store
+
+# Editor / scratch
+*.bak
+*.swp
+*.tmp
+*~
+.#*    # emacs lockfiles
+tmp/
+
+# Python and local artifact outputs
+__pycache__/
+*.pyc
+artifacts/
